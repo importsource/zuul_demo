@@ -1,6 +1,7 @@
 import com.netflix.zuul.ZuulFilter
 import com.netflix.zuul.context.RequestContext
 
+
 class RouteRequest extends ZuulFilter{
 
     @Override
@@ -20,8 +21,8 @@ class RouteRequest extends ZuulFilter{
 
     @Override
     Object run() {
-        println("水电费水电费水电费")
-       // RequestContext.currentContext.getResponse().sendRedirect("http://www.zbj.com")
+        println("sdfsdfsdfsdf双方水电费")
+        //RequestContext.currentContext.getResponse().sendRedirect("http://www.zbj.com")
         return null
     }
 }
