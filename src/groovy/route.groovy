@@ -1,8 +1,6 @@
 import com.netflix.zuul.ZuulFilter
 import com.netflix.zuul.context.RequestContext
 
-import javax.servlet.http.HttpServletRequest
-
 class RouteRequest extends ZuulFilter{
 
     @Override
@@ -22,9 +20,8 @@ class RouteRequest extends ZuulFilter{
 
     @Override
     Object run() {
-        println("sdfsdf")
-
-        RequestContext.currentContext.getResponse().sendRedirect("http://www.zbj.com")
+        println("水电费水电费水电费")
+       // RequestContext.currentContext.getResponse().sendRedirect("http://www.zbj.com")
         return null
     }
 }

@@ -23,13 +23,13 @@ class PreRequest extends ZuulFilter{
     @Override
     Object run() {
         println("sdfsdf")
-        HttpServletRequest req = RequestContext.currentContext.request as HttpServletRequest
+        /*HttpServletRequest req = RequestContext.currentContext.request as HttpServletRequest
         Iterator headerIt = req.getHeaderNames().iterator()
         while (headerIt.hasNext()) {
             String name = (String) headerIt.next()
             String value = req.getHeader(name)
             println("header: " + name + ":" + value)
-        }
+        }*/
         return null
     }
 }
